@@ -94,5 +94,9 @@ def format_project_data(token_symbol: str, lang: str = None) -> list[base.UserMe
         )
     ]
 
-if __name__ == "__main__":
+def main():
+    """Main entry point for the MCP server."""
     mcp.run()
+
+if __name__ == "__main__":
+    main()
